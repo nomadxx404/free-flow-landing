@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/free-flow-landing/static/css/main.9ff25184.css",
+    "main.js": "/free-flow-landing/static/js/main.4da1064f.js",
+    "static/js/453.7fd1fbc9.chunk.js": "/free-flow-landing/static/js/453.7fd1fbc9.chunk.js",
+    "index.html": "/free-flow-landing/index.html",
+    "main.9ff25184.css.map": "/free-flow-landing/static/css/main.9ff25184.css.map",
+    "main.4da1064f.js.map": "/free-flow-landing/static/js/main.4da1064f.js.map",
+    "453.7fd1fbc9.chunk.js.map": "/free-flow-landing/static/js/453.7fd1fbc9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ff25184.css",
+    "static/js/main.4da1064f.js"
+  ]
+}
