@@ -1,5 +1,7 @@
 import './App.css';
 import { useState } from 'react';
+import logoImage from './assets/logo.png';
+import telegramIcon from './assets/telegram.png';
 
 function App() {
   const [email, setEmail] = useState('');
@@ -29,7 +31,7 @@ function App() {
             <button onClick={() => scrollToSection('about')} className="nav-link">О продукте</button>
           </div>
           <div className="logo-container">
-            <img src="/logo.png" alt="Free-Flow Logo" className="logo-image" />
+            <img src={logoImage} alt="Free-Flow Logo" className="logo-image" />
             <div className="logo">Free-Flow</div>
           </div>
           <div className="nav-right">
@@ -40,7 +42,7 @@ function App() {
 
         <div className="hero-content">
           <div className="hero-logo-container">
-            <img src="/logo.png" alt="Free-Flow" className="hero-logo" />
+            <img src={logoImage} alt="Free-Flow" className="hero-logo" />
             <div className="hero-badge">🔒 Скоро запуск</div>
           </div>
           <h1 className="hero-title">
@@ -168,14 +170,14 @@ function App() {
           <div className="footer-content">
             <div className="footer-left">
               <div className="logo-container">
-                <img src="/logo.png" alt="Free-Flow Logo" className="logo-image-small" />
+                <img src={logoImage} alt="Free-Flow Logo" className="logo-image-small" />
                 <div className="logo">Free-Flow</div>
               </div>
               <p className="footer-text">© 2025 Free-Flow. Все права защищены</p>
             </div>
             <div className="footer-links">
               <button onClick={() => window.open('https://t.me/free_flow_vpn', '_blank')} className="footer-link telegram-link">
-                <img src="/free-icon-telegram-4423663.png" alt="Telegram" className="telegram-icon-img" />
+                <img src={telegramIcon} alt="Telegram" className="telegram-icon-img" />
                 <span>Telegram</span>
               </button>
             </div>
